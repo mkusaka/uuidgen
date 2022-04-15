@@ -2,7 +2,7 @@
 
 set -e -o pipefail
 
-version="${1:-0.0.1}"
+version="${1:-0.0.2}"
 
 if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
     echo "Given version '${version}' does not match to regex" '^[0-9]+\.[0-9]+\.[0-9]+$' >&2
@@ -40,7 +40,7 @@ esac
 echo "Detected OS=${os} ext=${ext} arch=${arch}"
 
 file="uuidgen_${version}_${os}_${arch}.${ext}"
-url="https://github.com/mkusaka/uuidgen/releases/download/${version}/${file}"
+url="https://github.com/mkusaka/uuidgen/releases/download/v${version}/${file}"
 
 echo "Downloading ${url} with curl"
 
