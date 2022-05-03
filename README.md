@@ -5,7 +5,7 @@ go implementation for uuidgen command
 via go 
 
 ```bash
-go install github.com/mkusaka/uuidgen/blob/main/cmd@latest
+go install github.com/mkusaka/uuidgen@latest
 ```
 
 via script

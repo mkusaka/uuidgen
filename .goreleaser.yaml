@@ -10,7 +10,6 @@ builds:
       - linux
       - windows
       - darwin
-    dir: cmd
 archives:
   - replacements:
       darwin: Darwin
