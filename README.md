@@ -19,6 +19,6 @@ bash <(curl https://raw.githubusercontent.com/mkusaka/uuidgen/main/scripts/insta
 ## install from go
 uuidgen
 
-## instlal from bash
+## install from bash
 ./uuidgen
 ```
